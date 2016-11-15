@@ -186,7 +186,7 @@ What is the distribution of t-squared?
  * Beta
  * Bivariate Normal
 
->> it's roughly Normal
+>> It's roughly Normal
 
 ***
 
@@ -197,7 +197,7 @@ In the scikit-learn's official source repo, about how many issues are outstandin
 3. 700  
 4. 7000  
 
->>It'saround 700.
+>>It's around 700.
 
 ---
 
