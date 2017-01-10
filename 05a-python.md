@@ -12,7 +12,7 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Lists and tuples share a few similarities, but there difference lies in that lists are mutable and tuples are immutable. Both are iterable and store data in array-like ways. Tuples work as keys in dictionaries, as far as I can tell, in simplest terms, because they are hashable where as lists are not. Immutability is a nice feature for a key, so that we cannot alter the order or input anything further into a key value once it has been created.
 
 ---
 
@@ -20,15 +20,23 @@ How are Python lists and tuples similar and different? Which will work as keys i
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+lists are mutable and are unordered. They can contain any number of repeating alues. Sets, on the other hand, can only contain unique values and such values must be hashable, whereas lists do not care about that. 
 
+a list:
+simple_list = [1,2,2,3,3,4,4,5,5,5]
+finding a set of the same list:
+simple_set = {1,2,3,4,5}
+Lists are more flexible and can store multiple copies of a value, Sets on the other hand are hashable and a faster option for recalling values. Lists have a time complexity of O(n) for recal of a value and sets have a time complexity of O(1).
 ---
 
 ###Q3. Lambda Function
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
+A lambda function is what is known as an anonymous function and are functions made of a single expression. They are defined using the lambda keyword. (lambda x: x+2) will return any integer value will be incremented by 2. 
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+A short example, sorting by how divisible something is by a value, either making it odd or even.
+>>> sorted([100,2,12,6,90],key = lambda x: x%3 == 0)
+[100, 2, 12, 6, 90]
 
 ---
 
