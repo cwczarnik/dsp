@@ -48,13 +48,18 @@ cross-platform.
 
 Did you install Python 2 or 3? Why?  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+I've got both python 2.7.12 and 3.2.3. I've installed spyder and python 3 independently. Both have hteir uses.
 
 ###Q2. Which Python Version Installed   
 
 How can you check the version of Python installed if you happen to be on an unfamiliar computer?
+Check in the terminal by inputing python -V, such as follows:
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Excelsior:~ X$ python -V
+Python 2.7.12 :: Anaconda custom (x86_64)
+Excelsior:~ X$ 
+
+
 
  
 
