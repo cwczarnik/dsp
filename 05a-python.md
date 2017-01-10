@@ -38,7 +38,7 @@ A short example, sorting by how divisible something is by a value, either making
 '''python
 >>> sorted([100,2,12,6,90],key = lambda x: x%3 == 0)
 [100, 2, 12, 6, 90]
-''''
+'''
 ---
 
 ###Q4. List Comprehension, Map &amp; Filter
