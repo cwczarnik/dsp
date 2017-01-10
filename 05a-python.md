@@ -35,9 +35,10 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 A lambda function is what is known as an anonymous function and are functions made of a single expression. They are defined using the lambda keyword. (lambda x: x+2) will return any integer value will be incremented by 2. 
 
 A short example, sorting by how divisible something is by a value, either making it odd or even.
+'''python
 >>> sorted([100,2,12,6,90],key = lambda x: x%3 == 0)
 [100, 2, 12, 6, 90]
-
+''''
 ---
 
 ###Q4. List Comprehension, Map &amp; Filter
