@@ -23,9 +23,13 @@ How are Python lists and sets similar and different? Give examples of using both
 lists are mutable and are unordered. They can contain any number of repeating alues. Sets, on the other hand, can only contain unique values and such values must be hashable, whereas lists do not care about that. 
 
 a list:
+```python
 simple_list = [1,2,2,3,3,4,4,5,5,5]
+```
 finding a set of the same list:
+```python
 simple_set = {1,2,3,4,5}
+```python
 Lists are more flexible and can store multiple copies of a value, Sets on the other hand are hashable and a faster option for recalling values. Lists have a time complexity of O(n) for recal of a value and sets have a time complexity of O(1).
 ---
 
