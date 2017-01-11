@@ -3,6 +3,9 @@ import numpy as np
 import re
 import matplotlib.pyplot as plt
 
+df = pd.read_csv('faculty.csv')
+df.columns =[u'name', u'degree', u'title', u'email'] 
+
 name_list = []
 for i in df['name']:
     name_list.append(i.split(" " ))
