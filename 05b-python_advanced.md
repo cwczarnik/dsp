@@ -19,22 +19,67 @@ This data is available in this file:  [faculty.csv](python/faculty.csv)
 
 ####Q1. Find how many different degrees there are, and their frequencies: Ex:  PhD, ScD, MD, MPH, BSEd, MS, JD, etc.
 
->> REPLACE THIS WITH YOUR RESPONSE
+```python
+{'': 1, 'MD': 1, 'MA': 1, 'ScD': 7, 'MPH': 2, 'PhD': 31, 'MS': 1, 'JD': 1, 'B.S.Ed.': 1}
+```
 
 
 ####Q2. Find how many different titles there are, and their frequencies:  Ex:  Assistant Professor, Professor
-
->> REPLACE THIS WITH YOUR RESPONSE
-
+```python
+{'Assistant Professor of Biostatistics': 11, 'Professor of Biostatistics': 13, 'Assistant Professor in Biostatistics': 1, 'Associate Professor of Biostatistics': 12}
+```
 
 ####Q3. Search for email addresses and put them in a list.  Print the list of email addresses.
 
->> REPLACE THIS WITH YOUR RESPONSE
+```python
+0     bellamys@mail.med.upenn.edu
+1                warren@upenn.edu
+2               bryanma@upenn.edu
+3              jinboche@upenn.edu
+4              sellenbe@upenn.edu
+5     jellenbe@mail.med.upenn.edu
+6               ruifeng@upenn.edu
+7     bcfrench@mail.med.upenn.edu
+8              pgimotty@upenn.edu
+9         wguo@mail.med.upenn.edu
+10        hsu9@mail.med.upenn.edu
+11       rhubb@mail.med.upenn.edu
+12      whwang@mail.med.upenn.edu
+13      mjoffe@mail.med.upenn.edu
+14    jrlandis@mail.med.upenn.edu
+15            liy3@email.chop.edu
+16     mingyao@mail.med.upenn.edu
+17              hongzhe@upenn.edu
+18             rlocalio@upenn.edu
+19    nanditam@mail.med.upenn.edu
+20    knashawn@mail.med.upenn.edu
+21     propert@mail.med.upenn.edu
+22       mputt@mail.med.upenn.edu
+23             sratclif@upenn.edu
+24             michross@upenn.edu
+25       jaroy@mail.med.upenn.edu
+26     msammel@cceb.med.upenn.edu
+27                shawp@upenn.edu
+28        rshi@mail.med.upenn.edu
+29       hshou@mail.med.upenn.edu
+30     jshults@mail.med.upenn.edu
+31    alisaste@mail.med.upenn.edu
+32     atroxel@mail.med.upenn.edu
+33       rxiao@mail.med.upenn.edu
+34        sxie@mail.med.upenn.edu
+35                 dxie@upenn.edu
+36     weiyang@mail.med.upenn.edu
+Name: email, dtype: object
 
+
+```
 
 ####Q4. Find how many different email domains there are (Ex:  mail.med.upenn.edu, upenn.edu, email.chop.edu, etc.).  Print the list of unique email domains.
 
->> REPLACE THIS WITH YOUR RESPONSE
+```python
+set(['@upenn.edu', '@email.chop.edu', '@cceb.med.upenn.edu', '@mail.med.upenn.edu'])
+```
+
 
 Place your code in this file: [advanced_python_regex.py](python/advanced_python_regex.py)
 
