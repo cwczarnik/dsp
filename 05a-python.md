@@ -99,21 +99,19 @@ date_start = '01-02-2013'
 date_stop = '07-28-2015'
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE (answer will be in number of days)
+```python 
+>>>change = datetime.datetime(2015,07,28)-datetime.datetime(2013,01,01)
+>>>change.days
+938
+```
+That is, 938 days will have passed.
 
 b.  
 ```
 date_start = '12312013'  
 date_stop = '05282015'  
 ```
-
-```python 
->>>change = datetime.datetime(2015,07,28)-datetime.datetime(2013,01,01)
->>>change.days
-938
-```
-That is, 938 days will hve passed.
->> REPLACE THIS TEXT WITH YOUR RESPONSE (answer will be in number of days)
+For this time difference the change in days would be 513.
 
 c.  
 ```
@@ -121,7 +119,8 @@ date_start = '15-Jan-1994'
 date_stop = '14-Jul-2015'  
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE  (answer will be in number of days)
+
+There is a 7840 day difference between the start and stop dates.
 
 Place code in this file: [q5_datetime.py](python/q5_datetime.py)
 
