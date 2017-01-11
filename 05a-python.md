@@ -49,7 +49,42 @@ A short example, sorting by how divisible something is by a value, either making
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+List comprehension is a syntatic way to make a list based on an existing list. It works similarly to amathematical function in syntax. It is simply more concise and readable.
+The following produces a list, using list comprehension of every value from 0 to 9 squared.
+```python
+>>[x**2 for x in range(0,10)]
+[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+```
+
+For `map`:
+```python
+>>>map(lambda x:x**2, range(0,10))
+[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+```
+for `filter':
+```python
+>>>filter(lambda x: x%2 == 0,range(0,10))
+[0, 2, 4, 6, 8]
+>>>[x for x in range(0,10) if x%2 ==0]
+[0, 2, 4, 6, 8]
+```
+they both have the same output.
+
+For set comprehension:
+```python
+>>> {random.randint(0,10) for x in range(10)}
+set([1, 3, 4, 7, 9, 10])
+
+```
+As a general example for dict comprehension we have:
+```python
+d = {key: value for (key, value) in iterable}
+```
+
+```python
+>>> {n: (n**2)%2 for n in range(0,10)}
+{0: 0, 1: 1, 2: 0, 3: 1, 4: 0, 5: 1, 6: 0, 7: 1, 8: 0, 9: 1}
+```
 
 ---
 
@@ -72,6 +107,12 @@ date_start = '12312013'
 date_stop = '05282015'  
 ```
 
+```python 
+>>>change = datetime.datetime(2015,07,28)-datetime.datetime(2013,01,01)
+>>>change.days
+938
+```
+That is, 938 days will hve passed.
 >> REPLACE THIS TEXT WITH YOUR RESPONSE (answer will be in number of days)
 
 c.  
