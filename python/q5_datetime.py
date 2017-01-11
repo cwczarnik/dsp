@@ -1,5 +1,8 @@
 # Hint:  use Google to find python function
 
+import datetime
+change = datetime.datetime(2015,7,28)-datetime.datetime(2013,1,1)day = change.day
+
 ####a) 
 date_start = '01-02-2013'  
 date_stop = '07-28-2015'   
