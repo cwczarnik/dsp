@@ -47,7 +47,7 @@ print('Actual mean', reg_pmf.Mean())
 print('Observed mean', biased_pmf.Mean())
 ```
 
-the means are calculated as:
+The means are calculated as:
 ```python
 ('Actual mean', 1.0242051550438309)
 ('Observed mean', 2.4036791006642821)
