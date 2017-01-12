@@ -29,6 +29,6 @@ def main(script):
 if __name__ == '__main__':
     print(main(*sys.argv))
     ```
+
 The Cohen's d coefficient:  -0.0886729270726.
-This implies that there is a small difference in means of weights, but that the first born weight means are less than the means of the other births, this is according to the sign of the coefficient. 
-According to wikipedias article on the Cohen d coefficient, the lower coefficient usually implies a need for more samples. 
+This implies that there is a small difference in means of weights, but that the first born weight means are less than the means of the other births, this is according to the sign of the coefficient. According to wikipedias article on the Cohen d coefficient, the lower coefficient usually implies a need for more samples. 
