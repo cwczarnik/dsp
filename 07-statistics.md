@@ -103,8 +103,10 @@ P(A|E) = P(E|A)*P(A)/P(D)
 P(A|E) = (1 * 1/300)/(1/300 + 1/2 *1/125) = 0.45 
 ```
 Or 45% probability of elvis having an identical twin.
----
 
+
+
+---
 ###Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
