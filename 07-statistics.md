@@ -78,20 +78,20 @@ This is a classic example of hypothesis testing using the normal distribution.  
 Bayes' Theorem is an important tool in understanding what we really know, given evidence of other information we have, in a quantitative way.  It helps incorporate conditional probabilities into our conclusions.
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
-
+```
 P(D) The the probability of the data under any hypothesis. Or all events being possible given data.
 P(H) is the prior, the probability of the hypothesis before we see the data.
 P(H|D) the probability that elvis was an identical win, what we want to find
 P(D|H) is the probability of the data under the hypothesis, called the likelihood. For us, this is the probability that 
-
+```
 There are two hypothesis, either Elvis was an identical twin or not. A: he was, B: he wasn't. This can somewhat be extrapolated from the cookie or m&m problem in the "Think Bayes" book.
-
+```
 P(A) = 1/300 # prob of identical
 P(B) = 1/125 #prob of frat
-
+```
 The key to the problem lies in distinguishing the likelihoods--given each possible twin, what is distinguishable about them?
 one can be either female or male, the other can only be the same gender as the other. 
-
+```
 P(E|A) = 1 #prob of male given being identical
 P(E|B) = 1/2 #prob of being male given being fraternal
 Putting it all together:
@@ -101,6 +101,7 @@ P(H|D) = P(D|H) * P(H) / P(D)
 For H = A, E = elvis twin is male
 P(A|E) = P(E|A)*P(A)/P(D)
 P(A|E) = (1 * 1/300)/(1/300 + 1/2 *1/125) = 0.45 
+```
 or 45% probability of elvis having an identical twin.
 ---
 
