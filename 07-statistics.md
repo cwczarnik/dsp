@@ -118,6 +118,10 @@ Bayesian inference:
 For Bayesian’s, probability is related to our own subjective certainty of events. The treatment of parameters is different than frequentists, in that it treats them as unknown and with probability distributions. The data are fixed in place and does not rely on sampling of data, it acts as a previous set of data or the history that will be broken up into likelihood. Bayesian inference requires one to know or make a subjective prior probability distribution to answer a decisive question. The prior and the likelihood allow you to assess the probability of future observations. In my own understanding it bootstraps the previous data, given a hypothesis to make an assumption, some probability, of the future event.
 
 There is so much more I’m missing and I can’t seem to get a picture of the differences in better detail. The definition of probability differs for both. Frequentists rely on repeated trials from the same experiment and Bayesian use the data to ask decisive questions. The main difference being how they treat parameters, as either static or probabilistic and how they answer questions about a hypothesis. I may be missing a few key points, so please, correct me on these points.
+
+
+
+
 ---
 
 ## <a name="section-d"></a>4.  Optional Exercises
