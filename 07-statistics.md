@@ -110,8 +110,14 @@ Or 45% probability of elvis having an identical twin.
 ###Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Frequentist inference:
+The primary defining feature that I’m familiar with is that frequentists uses events to measure parameters by taking samples from a population to find significant values.
+The definition of probability is related to the frequency of repeated events. The relative frequency over a large set of repeated experiments over time. The outcomes of a random experiment are analyzed, the event of interest remains constant regardless of how many sampling processes take place. A proportion can be taken from a sample of the overall data—it is an evaluation of an event that has taken place. Frequentists ask whether or not a hypothesis should be rejected, and looks at a proportion of sampled data to make an assessment. This allows us to make a decision based on a hypothesis 
 
+Bayesian inference:
+For Bayesian’s, probability is related to our own subjective certainty of events. The treatment of parameters is different than frequentists, in that it treats them as unknown and with probability distributions. The data are fixed in place and does not rely on sampling of data, it acts as a previous set of data or the history that will be broken up into likelihood. Bayesian inference requires one to know or make a subjective prior probability distribution to answer a decisive question. The prior and the likelihood allow you to assess the probability of future observations. In my own understanding it bootstraps the previous data, given a hypothesis to make an assumption, some probability, of the future event.
+
+There is so much more I’m missing and I can’t seem to get a picture of the differences in better detail. The definition of probability differs for both. Frequentists rely on repeated trials from the same experiment and Bayesian use the data to ask decisive questions. The main difference being how they treat parameters, as either static or probabilistic and how they answer questions about a hypothesis. I may be missing a few key points, so please, correct me on these points.
 ---
 
 ## <a name="section-d"></a>4.  Optional Exercises
